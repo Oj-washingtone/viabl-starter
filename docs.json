@@ -1,0 +1,144 @@
+{
+    "name": "viab/",
+    "favicon": "/favicon.png",
+    "defaultVersion": "v2",
+    "logo": {
+        "dark": "/logo/dark.svg",
+        "light": "/logo/light.svg"
+    },
+    "colors": {
+        "primary": "#ff5800",
+        "light": "#ff5800",
+        "dark": "#ff7733",
+        "background": {
+            "dark": "radial-gradient(ellipse 80% 50% at 50% -20%, rgba(255,88,0,0.15), transparent), radial-gradient(ellipse 60% 40% at 80% 120%, rgba(206,5,105,0.1), transparent), #0c0d0f",
+            "light": "#ffffff"
+        },
+        "anchors": {
+            "from": "#ff5800",
+            "to": "#ce0569"
+        }
+    },
+    "font": {
+        "headings": {
+            "family": "Geist",
+            "url": "https://cdn.jsdelivr.net/npm/geist@1.3.0/dist/fonts/geist-sans/style.css"
+        },
+        "body": {
+            "family": "Geist",
+            "url": "https://cdn.jsdelivr.net/npm/geist@1.3.0/dist/fonts/geist-sans/style.css"
+        }
+    },
+    "search": {
+        "prompt": "Search doc..."
+    },
+    "topbarLinks": [
+        {
+            "name": "Support",
+            "url": "doc/support"
+        }
+    ],
+    "topbarCtaButton": {
+        "name": "Get Started",
+        "url": "https://dashboard.example.com",
+        "style": "fill",
+        "arrow": true,
+        "icon": "Rocket"
+    },
+    "tabs": [
+        {
+            "name": "Documentation",
+            "url": "docs",
+            "icon": "BookOpen"
+        },
+        {
+            "name": "API Reference",
+            "url": "api-reference",
+            "icon": "Code2"
+        },
+        {
+            "name": "Changelog",
+            "url": "changelog",
+            "icon": "Clock",
+            "anchor": true
+        },
+        {
+            "name": "Support",
+            "url": "support",
+            "icon": "LifeBuoy",
+            "anchor": true
+        }
+    ],
+    "navigation": [
+        {
+            "group": "Getting Started",
+            "icon": "Rocket",
+            "pages": [
+                "docs/introduction",
+                "docs/quickstart",
+                "docs/components",
+                "docs/installation",
+                "docs/images",
+                "docs/authentication"
+            ]
+        },
+        {
+            "group": "Apis",
+            "icon": "Code2",
+            "pages": [
+                "api-reference/authentication",
+                "api-reference/uploads",
+                "api-reference/user-apis",
+                "api-reference/customers",
+                "api-reference/shopping-carautht",
+                "api-reference/Something else",
+                "api-reference/All the things"
+            ]
+        },
+        {
+            "group": "SDKS",
+            "icon": "Layers",
+            "pages": [
+                "docs/node-js",
+                "docs/python",
+                "docs/java",
+                "docs/go",
+                "docs/c++",
+                "docs/rust",
+                "docs/c",
+                "docs/react",
+                "docs/user-apis"
+            ]
+        },
+        {
+            "group": "support",
+            "icon": "LifeBuoy",
+            "pages": [
+                "user/user-apis"
+            ]
+        }
+    ],
+    "footerSocials": {
+        "twitter": "https://twitter.com/yourhandle",
+        "github": "https://github.com/yourorg",
+        "linkedin": "https://linkedin.com/company/yourorg",
+        "discord": "https://discord.gg/yourinvite",
+        "youtube": "https://youtube.com/@yourchannel",
+        "website": "https://yourwebsite.com"
+    },
+    "seo": {
+        "indexHiding": true,
+        "og": {
+            "title": "Title that shpould appear when shared",
+            "description": "string",
+            "image": "string"
+        }
+    },
+    "feedback": {
+        "thumbsRating": true,
+        "suggestEdit": true,
+        "raiseIssue": true,
+        "webhook": "http://where-the-feedback-will-go-to",
+        "githubRepo": "https://github.com/Oj-washingtone/viabl"
+    }
+}
