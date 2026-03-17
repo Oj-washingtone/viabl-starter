@@ -1,4 +1,5 @@
 {
+    "$schema": "https://viabl.dev/schema/docs.json",
     "name": "viab/",
     "favicon": "/favicon.png",
     "defaultVersion": "v2",
